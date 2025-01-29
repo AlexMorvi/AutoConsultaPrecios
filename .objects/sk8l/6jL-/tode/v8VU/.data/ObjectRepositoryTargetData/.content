@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="G9-1JnzfVkKHRmggWaEdvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="29c2eab3-7fef-4120-8ecb-7bce80d9b2a3" CvTextArea="988, 303, 19, 26" CvType="AnyWordGroup" DesignTimeRectangle="988, 297, 18, 36" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-money-amount__fraction' parentid='price' tag='SPAN' type='' /&gt;" Guid="12606972-2b40-46f4-bc50-65a089fd5083" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop | MercadoLibre' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="29c2eab3-7fef-4120-8ecb-7bce80d9b2a3" CvTextArea="915, 299, 114, 33" CvTextArgument="US$ 7 99" CvType="Text" DesignTimeRectangle="915, 297, 188, 36" FuzzySelectorArgument="&lt;webctrl class='ui-pdp-price__second-line' parentid='price' tag='DIV' type='' aaname='' check:innerText='US$&amp;#xA;7&amp;#xA;,&amp;#xA;99' /&gt;" Guid="75b6962e-ee1b-41ea-8e7a-a420087fe673" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2497cca84dd3e05b3c6f793908b895cd.png" xmlns="">0ZAaNffjvlUqR4g7fdXitFw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

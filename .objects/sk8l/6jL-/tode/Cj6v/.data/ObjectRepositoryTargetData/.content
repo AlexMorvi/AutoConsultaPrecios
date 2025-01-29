@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IjipD8W6t0OLCNUiCzNtlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="358edfe7-7298-47f1-8955-f1d49ade0da7" CvTextArea="1151, 359, 83, 15" CvTextArgument="Menor precio" CvType="Text" DesignTimeRectangle="1139, 345, 135, 41" DesignTimeScaleFactor="1" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' tabindex='-1' tag='LI' type='' class='andes-list__item andes-list__item--size-medium' aaname='' check:innerText='Menor precio' /&gt;" Guid="67ab6f40-bf47-47a9-a891-8f307eeb4b9b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mause Gamer Logitec Inalambrico | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="358edfe7-7298-47f1-8955-f1d49ade0da7" CvTextArea="1151, 359, 83, 15" CvTextArgument="Menor precio" CvType="Text" DesignTimeRectangle="1152, 355, 82, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Menor precio' class='andes-list__item-primary' tag='SPAN' type='' check:innerText='Menor precio' /&gt;" Guid="66fc6bf0-2314-498f-9093-54156e0b5abb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e15b36e8fb1406d751d0538dd51cf092.png" xmlns="">08vy5Wy5ISkim8TNeOEi8bg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Menor precio",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "aenoZljd8UO5jUMD6MMDaA",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/aenoZljd8UO5jUMD6MMDaA",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "Created": "2025-01-29T02:52:32.5610837Z",
+  "Updated": "2025-01-29T02:52:32.5610837Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

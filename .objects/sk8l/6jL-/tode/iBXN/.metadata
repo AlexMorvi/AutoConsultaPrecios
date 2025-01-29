@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Más relevantes",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "iBXNb7VDHUmorM97R5H2sQ",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/iBXNb7VDHUmorM97R5H2sQ",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "Created": "2025-01-29T03:33:52.17Z",
+  "Updated": "2025-01-29T03:33:52.17Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

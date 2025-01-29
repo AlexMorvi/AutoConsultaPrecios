@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Navegador",
+  "Type": "Screen",
+  "Id": "todew4adtE2p-yzHah9zYA",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/6jL-L6W7H06qEm79R-hKkQ",
+  "Created": "2025-01-29T02:46:13.6550254Z",
+  "Updated": "2025-01-29T02:46:13.6550254Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

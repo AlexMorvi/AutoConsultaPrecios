@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mouse Ergonómico Inalám…(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "dLNBws_WPEi232ao5A8G5w",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/dLNBws_WPEi232ao5A8G5w",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "Created": "2025-01-29T04:16:21.2242643Z",
+  "Updated": "2025-01-29T04:16:21.2242643Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

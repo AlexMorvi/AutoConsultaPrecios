@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ioZwxaoWOESl_cINBhOqyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="4b3077b2-27c2-492b-afc2-65d7c4d8965e" CvTextArea="608, 369, 546, 20" CvTextArgument="Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop" CvType="Text" DesignTimeRectangle="609, 364, 602, 25" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='poly-component__title' parentid='root-app' tag='A' type='' aaname='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop' check:innerText='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop' /&gt;" Guid="850122f5-0c4c-47df-8cd7-8ab42433f7b8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mouse Inalambrico Logitec | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="63803ead6ab389a378fde1c9cf050b21.png" xmlns="">02U8Z15UxUkiwR24vufcPFg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Menor precio(4)",
+  "Type": "Element",
+  "Id": "Cj6vVEjccEqXq2Rl7Jh5bA",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/Cj6vVEjccEqXq2Rl7Jh5bA",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "Created": "2025-01-29T03:45:25.8276375Z",
+  "Updated": "2025-01-29T03:45:25.8276375Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
