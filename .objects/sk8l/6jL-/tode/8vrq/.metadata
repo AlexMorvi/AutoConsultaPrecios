@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Logitech Ratón inalámbr…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "8vrqFc7XF0uV2xMVnOESDQ",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/8vrqFc7XF0uV2xMVnOESDQ",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "Created": "2025-01-30T01:18:17.0922817Z",
+  "Updated": "2025-01-30T01:18:17.0922817Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="nie3BVdsV0qfcwE8qJEeMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="M_Fmjsy87kylGp9Si-bNQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com" DesignTimeRectangle="165, 59, 1027, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="dc93e497-e2dc-4b41-a9a9-7149f0809977" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Google - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="a895c19cc37e3da7f4eeb7ab5debb2e8.png" xmlns="">0TmLJwXMT6EGnXlxtUVTzsQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com" CVScreenId="edbe39f3-e18a-4923-995b-40f01a677e06" CvElementArea="129, 54, 1107, 36" CvType="InputBox" DesignTimeRectangle="165, 59, 1027, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Barra de direcciones y de búsqueda' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Barra de direcciones y de búsqueda' role='editable text' automationid='' /&gt;" Guid="b8c890c8-8666-408f-b4cd-626d772ec8ab" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Google - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fc38b6fbc6901b0c8f7fd490c61c9a27.png" xmlns="">0Tb84wF45HUSlMAV2F6K-FA</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">TypeInto</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

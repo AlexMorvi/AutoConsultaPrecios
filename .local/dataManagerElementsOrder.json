@@ -12,10 +12,11 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "precioProducto&Sequence_2",
+        "elementoDeSalida&Sequence_1",
         "precioProducto&Sequence_1",
         "producto&Sequence_1",
-        "precioProductoS&Sequence_2"
+        "precioProductoS&Sequence_2",
+        "precioProducto&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

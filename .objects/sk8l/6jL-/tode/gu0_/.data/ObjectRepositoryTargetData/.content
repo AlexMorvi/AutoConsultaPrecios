@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="syY0s0TeGEGBohk4RdTqZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com/s" CVScreenId="9fb6cc5e-42a4-45ca-8d59-a465067abf27" CvElementArea="1189, 288, 157, 24" CvTextArea="1197, 294, 128, 11" CvTextArgument="Ordenar por: Destacados" CvType="Button" DesignTimeRectangle="1191, 290, 153, 20" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='a-autoid-0' tag='SPAN' class='a-button-text a-declarative' aaname='' check:innerText='Ordenar por:Destacados' /&gt;" Guid="7cd9eb7f-5017-4804-bfbb-f64bcdd8e12e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com : mouse gamer inalambrico logitech&amp;quot;' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="072300ecca4f352eb99fad1c646cc299.png" xmlns="">05lfFaV0co0qPXXBukYInAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

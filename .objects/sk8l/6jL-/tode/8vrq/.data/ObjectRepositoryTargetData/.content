@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WtVDoMdFCUW9Cv9Da-ZqcA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com/s" CVScreenId="c797ff24-1edd-4efc-a8c7-6f91b0fd3f7e" CvTextArea="559, 354, 764, 20" CvTextArgument="Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports" CvType="Text" DesignTimeRectangle="560, 352, 762, 22" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports' tag='SPAN' type='' class='' check:innerText='Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports' /&gt;" Guid="74d62845-f559-4933-8330-2995ea6178d5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com: Mouse Gamer Inalambrico Logitech' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c797ff24-1edd-4efc-a8c7-6f91b0fd3f7e" CvTextArea="287, 293, 103, 18" CvTextArgument="Resultados" CvType="Text" DesignTimeRectangle="287, 290, 1063, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='search' tag='H2' type='' class='a-size-medium-plus a-spacing-none a-color-base a-text-bold' aaname='Resultados' check:innerText='Resultados' /&gt;" Guid="c3b87764-244f-43ec-ab39-2f7acf50b2bf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="06b93f96d97c72784895679b5ef08ff2.png" xmlns="">0sOQItWmU4ESM44qqHjOvrg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

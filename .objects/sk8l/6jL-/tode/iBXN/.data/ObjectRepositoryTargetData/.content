@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="TOOWEW5a9UGPBndkNgg_XQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="VJE6wM0Ik0yWhmhUauN7aw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" DesignTimeRectangle="1244, 287, 15, 15" DesignTimeScaleFactor="1" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" Guid="f05fd4d9-1404-4faa-9492-67e5962424df" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mause Gamer Logitec Inalambrico | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="listado.mercadolibre.com.ec/mouse-gamer-inalambrico-logitech" CVScreenId="f726bec4-17c8-433d-b3b6-d794d3810f91" CvTextArea="1148, 270, 95, 12" CvType="AnyWordGroup" DesignTimeRectangle="1149, 268, 93, 17" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-dropdown__display-values' tag='SPAN' type='' /&gt;" Guid="8bf3483d-0cc6-42aa-a137-4b51be18cc10" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mouse Gamer Inalambrico Logitech | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target DesignTimeRectangle="1149, 286, 93, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-dropdown__display-values' tag='SPAN' type='' aaname='Más relevantes' check:innerText='Más relevantes' /&gt;" Guid="2d3e2043-0c89-48ec-9988-b726fe737763" SearchSteps="FuzzySelector" />
+          <Target CVScreenId="f726bec4-17c8-433d-b3b6-d794d3810f91" CvElementArea="1242, 268, 18, 16" CvTextArea="1148, 270, 95, 12" CvTextArgument="Más relevantes" CvType="ArrowButton" DesignTimeRectangle="1148, 265, 114, 21" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-labelledby=':R2m55ee:-label :R2m55ee:-display-values' tag='BUTTON' type='button' class='andes-dropdown__trigger' aaname='Más relevantesMás relevantes' check:innerText='Más relevantes&amp;#xA;Más relevantes' /&gt;" Guid="686dce6f-74b7-4654-a87e-aa7648ffacb2" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="ff3fa849c80c67f277e6848b94535382.png" xmlns="">0U9VkeT1oUUmWUcTZCis43g</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="e25f4cb5a30a7dbef7e072755cd55026.png" xmlns="">0xBCsdmlch0Ct1UJbzz0fCQ</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

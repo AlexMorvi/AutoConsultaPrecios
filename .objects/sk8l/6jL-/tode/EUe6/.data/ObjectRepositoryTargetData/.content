@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="4ocOvXONa0WAL7I9VgJFgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="QuIZ0Ekh-kKJKCAqfJNKXQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="50c4f7fb-f2ab-4f58-825c-6ddf51f22e86" CvTextArea="608, 369, 546, 20" CvTextArgument="Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop" CvType="Text" DesignTimeRectangle="609, 364, 602, 25" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='poly-component__title' parentid='root-app' tag='A' type='' aaname='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop' check:innerText='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop' /&gt;" Guid="90e9b200-741b-4c51-b649-a1764bbd1341" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mause Gamer Logitec Inalambrico | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="f02aac05fa75b876eda59da21f39ba06.png" xmlns="">02G5HnvTBs0OPdccAqUKtSw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com/-/es/Logitech-inal%C3%A1mbrico-910-005270-rendimiento-eSports/dp/B07GCKQD77/ref=sr_1_1" CVScreenId="6b9b6312-413c-47c3-96dc-fc3977abcd9b" CvTextArea="486, 352, 16, 64" CvTextArgument=":" CvType="Text" DesignTimeRectangle="389, 315, 196, 197" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;ctrl name='Mouse Gamer Inalambrico Logitech | MercadoLibre.com.ec' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" Guid="88f4637b-2fcb-4554-9753-f00d6196e8d5" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Mouse Gamer Inalambrico Logitech | MercadoLibre.com.ec - Google *' /&gt;" SearchSteps="FuzzySelector, CV" SelectionStrategy="AA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="609, 327, 602, 51" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Mouse Gamer Inalambrico Logitech | MercadoLibre.com.ec' role='document' /&gt;&lt;ctrl name='Mouse gamer de juego inalámbrico recargable Logitech GG Series L*' role='grouping' /&gt;&lt;ctrl name='Mouse gamer de juego inalámbrico recargable Logitech GG Series L*' role='link' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Mouse Gamer Inalambrico Logitech | MercadoLibre.com.ec' role='document' /&gt;&lt;ctrl name='Mouse gamer de juego inalámbrico recargable Logitech GG Series L*' role='grouping' /&gt;&lt;ctrl name='Mouse gamer de juego inalámbrico recargable Logitech GG Series L*' role='link' automationid='' check:text='Mouse gamer de juego inalámbrico recargable Logitech GG Series Lightspeed G502 negro' /&gt;" Guid="367cf3f0-0560-4d9a-b2f7-6164889d4794" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="93d139552ad6d1c554289061f8d65ce5.png" xmlns="">0zn0fWUw6gkCEqcloPN3Euw</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
