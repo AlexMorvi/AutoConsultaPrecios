@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Nj-lK4XXRUu5V6i09I3psQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com/s" CVScreenId="ddfbeb9f-48c9-4212-aae0-7c17f5feb1cd" CvTextArea="1131, 327, 202, 13" CvTextArgument="Precio: Del más bajo al más alto" CvType="Text" DesignTimeRectangle="1117, 321, 228, 25" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='s-result-sort-select_1' tag='A' type='' class='a-dropdown-link' aaname='Precio: Del más bajo al más alto' check:innerText='Precio: Del más bajo al más alto' /&gt;" Guid="4cf83318-b0cf-4519-8d72-5068a73f94e7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com : mouse gamer inalambrico logitech&amp;quot;' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ddfbeb9f-48c9-4212-aae0-7c17f5feb1cd" CvTextArea="1131, 302, 73, 13" CvTextArgument="Destacados" CvType="Text" DesignTimeRectangle="1117, 296, 228, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='s-result-sort-select_0' tag='A' type='' class='a-dropdown-link a-active' aaname='Destacados' check:innerText='Destacados' /&gt;" Guid="ee56c531-b882-47cd-861c-894d7eb96eb3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ad05c028b9dad7fd71917116dbd0e111.png" xmlns="">0oRAC142OcUiBShF3WdbHGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

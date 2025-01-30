@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="IjipD8W6t0OLCNUiCzNtlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="f1YTG6ygdESAjq8FqjdjfA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="358edfe7-7298-47f1-8955-f1d49ade0da7" CvTextArea="1151, 359, 83, 15" CvTextArgument="Menor precio" CvType="Text" DesignTimeRectangle="1139, 345, 135, 41" DesignTimeScaleFactor="1" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' tabindex='-1' tag='LI' type='' class='andes-list__item andes-list__item--size-medium' aaname='' check:innerText='Menor precio' /&gt;" Guid="67ab6f40-bf47-47a9-a891-8f307eeb4b9b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mause Gamer Logitec Inalambrico | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="listado.mercadolibre.com.ec/mouse-gamer-inalambrico-logitech" CVScreenId="53b10b90-8658-4c3a-ad35-e670b7bf59cf" CvTextArea="1151, 341, 83, 15" CvType="AnyWordGroup" DesignTimeRectangle="1152, 337, 82, 20" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-list__item-primary' tag='SPAN' type='' /&gt;" Guid="3d678edc-4fd5-4251-8881-ec6d42d8293f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mouse Gamer Inalambrico Logitech | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="358edfe7-7298-47f1-8955-f1d49ade0da7" CvTextArea="1151, 359, 83, 15" CvTextArgument="Menor precio" CvType="Text" DesignTimeRectangle="1152, 355, 82, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Menor precio' class='andes-list__item-primary' tag='SPAN' type='' check:innerText='Menor precio' /&gt;" Guid="66fc6bf0-2314-498f-9093-54156e0b5abb" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="1139, 286, 135, 123" ElementType="List" FuzzySelectorArgument="&lt;webctrl aria-role='listbox' tag='UL' type='' class='andes-list andes-floating-menu andes-list--default andes-list--selectable' aaname='' /&gt;" Guid="0bdcea27-daa7-471d-a226-05dffbe93d31" SearchSteps="FuzzySelector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="e15b36e8fb1406d751d0538dd51cf092.png" xmlns="">08vy5Wy5ISkim8TNeOEi8bg</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="97441d562d9240b480cad8a321ccb17a.png" xmlns="">046Hu1qEVVUqv7EFcRGSwCw</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

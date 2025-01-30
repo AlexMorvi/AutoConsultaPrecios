@@ -94,7 +94,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="722,2641" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="722,4676" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="precioProducto" />
       <Variable x:TypeArguments="x:String" Name="producto" />
@@ -109,16 +109,17 @@
         <OutArgument x:TypeArguments="x:String">[producto]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <uix:NApplicationCard DisplayName="Navegador" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,2347" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70">
+    <uix:NApplicationCard DisplayName="Navegador" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,4382" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,2107" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="450,4142" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="precioProductoS" />
               <Variable x:TypeArguments="x:String" Name="precioProducto" />
+              <Variable x:TypeArguments="x:String" Name="precioAmazon" />
             </Sequence.Variables>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -127,7 +128,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'google.com'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70" Text="https://www.mercadolibre.com.ec/" Version="V4">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="google.com" ContentHash="nie3BVdsV0qfcwE8qJEeMg" DesignTimeRectangle="165, 59, 1027, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' automationid='' /&gt;" Guid="dc93e497-e2dc-4b41-a9a9-7149f0809977" InformativeScreenshot="a895c19cc37e3da7f4eeb7ab5debb2e8.png" Reference="DSa22ETlukWYT-00JVmboQ/zOdMXOvcPU6-QlTUrv-acA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Google - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
+                <uix:TargetAnchorable BrowserURL="google.com" CVScreenId="edbe39f3-e18a-4923-995b-40f01a677e06" ContentHash="M_Fmjsy87kylGp9Si-bNQQ" CvElementArea="129, 54, 1107, 36" CvType="InputBox" DesignTimeRectangle="165, 59, 1027, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Barra de direcciones y de búsqueda' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Barra de direcciones y de búsqueda' role='editable text' automationid='' /&gt;" Guid="b8c890c8-8666-408f-b4cd-626d772ec8ab" InformativeScreenshot="fc38b6fbc6901b0c8f7fd490c61c9a27.png" Reference="DSa22ETlukWYT-00JVmboQ/zOdMXOvcPU6-QlTUrv-acA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Google - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
               </uix:NTypeInto.Target>
               <uix:NTypeInto.VerifyOptions>
                 <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
@@ -140,7 +141,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V4">
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,282" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                   <uix:VerifyExecutionOptions.Retry>
@@ -167,7 +168,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V4">
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,282" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                   <uix:VerifyExecutionOptions.Retry>
@@ -181,10 +182,10 @@
             </uix:NKeyboardShortcuts>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Más relevantes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70" Version="V4">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="google.com/search" ContentHash="TOOWEW5a9UGPBndkNgg_XQ" DesignTimeRectangle="1244, 287, 15, 15" DesignTimeScaleFactor="1" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" Guid="f05fd4d9-1404-4faa-9492-67e5962424df" InformativeScreenshot="ff3fa849c80c67f277e6848b94535382.png" Reference="DSa22ETlukWYT-00JVmboQ/iBXNb7VDHUmorM97R5H2sQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mause Gamer Logitec Inalambrico | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="listado.mercadolibre.com.ec/mouse-gamer-inalambrico-logitech" CVScreenId="f726bec4-17c8-433d-b3b6-d794d3810f91" ContentHash="VJE6wM0Ik0yWhmhUauN7aw" CvTextArea="1148, 270, 95, 12" CvType="AnyWordGroup" DesignTimeRectangle="1149, 268, 93, 17" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-dropdown__display-values' tag='SPAN' type='' /&gt;" Guid="8bf3483d-0cc6-42aa-a137-4b51be18cc10" InformativeScreenshot="e25f4cb5a30a7dbef7e072755cd55026.png" Reference="DSa22ETlukWYT-00JVmboQ/iBXNb7VDHUmorM97R5H2sQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mouse Gamer Inalambrico Logitech | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1149, 286, 93, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-dropdown__display-values' tag='SPAN' type='' aaname='Más relevantes' check:innerText='Más relevantes' /&gt;" Guid="2d3e2043-0c89-48ec-9988-b726fe737763" SearchSteps="FuzzySelector" />
+                      <uix:Target CVScreenId="f726bec4-17c8-433d-b3b6-d794d3810f91" CvElementArea="1242, 268, 18, 16" CvTextArea="1148, 270, 95, 12" CvTextArgument="Más relevantes" CvType="ArrowButton" DesignTimeRectangle="1148, 265, 114, 21" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-labelledby=':R2m55ee:-label :R2m55ee:-display-values' tag='BUTTON' type='button' class='andes-dropdown__trigger' aaname='Más relevantesMás relevantes' check:innerText='Más relevantes&amp;#xA;Más relevantes' /&gt;" Guid="686dce6f-74b7-4654-a87e-aa7648ffacb2" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
@@ -202,10 +203,10 @@
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Clic 'Menor precio'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70" Version="V4">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="google.com/search" CVScreenId="358edfe7-7298-47f1-8955-f1d49ade0da7" ContentHash="IjipD8W6t0OLCNUiCzNtlA" CvTextArea="1151, 359, 83, 15" CvTextArgument="Menor precio" CvType="Text" DesignTimeRectangle="1139, 345, 135, 41" DesignTimeScaleFactor="1" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' tabindex='-1' tag='LI' type='' class='andes-list__item andes-list__item--size-medium' aaname='' check:innerText='Menor precio' /&gt;" Guid="67ab6f40-bf47-47a9-a891-8f307eeb4b9b" InformativeScreenshot="e15b36e8fb1406d751d0538dd51cf092.png" Reference="DSa22ETlukWYT-00JVmboQ/Cj6vVEjccEqXq2Rl7Jh5bA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mause Gamer Logitec Inalambrico | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="listado.mercadolibre.com.ec/mouse-gamer-inalambrico-logitech" CVScreenId="53b10b90-8658-4c3a-ad35-e670b7bf59cf" ContentHash="f1YTG6ygdESAjq8FqjdjfA" CvTextArea="1151, 341, 83, 15" CvType="AnyWordGroup" DesignTimeRectangle="1152, 337, 82, 20" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-list__item-primary' tag='SPAN' type='' /&gt;" Guid="3d678edc-4fd5-4251-8881-ec6d42d8293f" InformativeScreenshot="97441d562d9240b480cad8a321ccb17a.png" Reference="DSa22ETlukWYT-00JVmboQ/Cj6vVEjccEqXq2Rl7Jh5bA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mouse Gamer Inalambrico Logitech | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="358edfe7-7298-47f1-8955-f1d49ade0da7" CvTextArea="1151, 359, 83, 15" CvTextArgument="Menor precio" CvType="Text" DesignTimeRectangle="1152, 355, 82, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Menor precio' class='andes-list__item-primary' tag='SPAN' type='' check:innerText='Menor precio' /&gt;" Guid="66fc6bf0-2314-498f-9093-54156e0b5abb" SearchSteps="FuzzySelector, CV" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="1139, 286, 135, 123" ElementType="List" FuzzySelectorArgument="&lt;webctrl aria-role='listbox' tag='UL' type='' class='andes-list andes-floating-menu andes-list--default andes-list--selectable' aaname='' /&gt;" Guid="0bdcea27-daa7-471d-a226-05dffbe93d31" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
@@ -240,19 +241,147 @@
               <uix:NGetText.Target>
                 <uix:TargetAnchorable BrowserURL="google.com/search" CVScreenId="f6b1166e-1110-4c38-ae17-472be5f4ddc5" ContentHash="hThHWLvA6kKOWBnQalI2MQ" CvTextArea="915, 399, 115, 33" CvType="AnyWordGroup" DesignTimeRectangle="915, 397, 188, 36" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='ui-pdp-price__second-line' parentid='price' tag='DIV' type='' aaname='' /&gt;" Guid="eb88b0ce-13e5-4e72-8e4e-4be3fda96e79" InformativeScreenshot="83194fcd8a0a95faac44601f12243d95.png" Reference="DSa22ETlukWYT-00JVmboQ/9cWO_dJIc06vxIBnPxVLJw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop | MercadoLibre' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="916, 303, 290, 78" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='ui-pdp-title' aaname='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop' check:innerText='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop' /&gt;" Guid="27345fd7-007f-4073-bf14-5a8dab641a80" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NGetText.Target>
             </uix:NGetText>
-            <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="416,115" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[precioProducto]" />
+            <WriteLine DisplayName="Escribir línea" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[precioProducto]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'google.com(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70" Text="https://www.amazon.com/-/es/" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="google.com" CVScreenId="41df9b48-b127-4cdb-9f2a-c8d61a405e43" ContentHash="Lnqp0PkcH02Mkv9ibrCOSg" CvElementArea="129, 54, 1107, 36" CvType="InputBox" DesignTimeRectangle="165, 59, 1027, 24" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Barra de direcciones y de búsqueda' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Google - Google Chrome' role='pane' /&gt;&lt;ctrl name='Barra de direcciones y de búsqueda' role='editable text' automationid='' /&gt;" Guid="3e6914ce-3545-4a16-86d0-29a7b1095f97" InformativeScreenshot="831cff661358d06013a6e37a52d4528f.png" Reference="DSa22ETlukWYT-00JVmboQ/yphW7lP-MUeZF8pZZpFSrA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Google - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,282" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Todos'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70" Text="[producto]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="amazon.com/-/es" CVScreenId="0efa1aef-e85e-48b1-8b37-0004419699c3" ContentHash="SH36jxR_0UGqq7fLs4hffg" CvElementArea="305, 189, 594, 44" CvType="InputBox" DesignTimeRectangle="307, 192, 573, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='twotabsearchtextbox' tag='INPUT' type='text' class='nav-input nav-progressive-attribute' placeholder='Buscar en Amazon' aaname='Buscar en Amazon' /&gt;" Guid="98529a29-1c24-4f3a-af5c-7b498b5c66a3" InformativeScreenshot="1027b55db70306e8198663ccfb7c2674.png" IsResponsive="True" Reference="DSa22ETlukWYT-00JVmboQ/dH48S-7hakeiph7x-bd64w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com en espanol. Gasta menos. Sonríe más.' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="0efa1aef-e85e-48b1-8b37-0004419699c3" CvTextArea="251, 204, 34, 12" CvTextArgument="Todos" CvType="Text" DesignTimeRectangle="253, 195, 32, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='nav-search-label-id' tag='SPAN' type='' class='nav-search-label nav-progressive-content' aaname='Todos' check:innerText='Todos' /&gt;" Guid="0f5beb3b-63ab-4caf-b4b9-39b9aa655639" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Ordenar porDestacados'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="amazon.com/s" CVScreenId="9fb6cc5e-42a4-45ca-8d59-a465067abf27" ContentHash="syY0s0TeGEGBohk4RdTqZQ" CvElementArea="1189, 288, 157, 24" CvTextArea="1197, 294, 128, 11" CvTextArgument="Ordenar por: Destacados" CvType="Button" DesignTimeRectangle="1191, 290, 153, 20" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' parentid='a-autoid-0' tag='SPAN' class='a-button-text a-declarative' aaname='' check:innerText='Ordenar por:Destacados' /&gt;" Guid="7cd9eb7f-5017-4804-bfbb-f64bcdd8e12e" InformativeScreenshot="072300ecca4f352eb99fad1c646cc299.png" Reference="DSa22ETlukWYT-00JVmboQ/gu0_5HYJc0KShoFYxTTFuA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com : mouse gamer inalambrico logitech&amp;quot;' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Precio: Del más bajo al…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="amazon.com/s" CVScreenId="ddfbeb9f-48c9-4212-aae0-7c17f5feb1cd" CvTextArea="1131, 327, 202, 13" CvTextArgument="Precio: Del más bajo al más alto" CvType="Text" DesignTimeRectangle="1117, 321, 228, 25" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='s-result-sort-select_1' tag='A' type='' class='a-dropdown-link' aaname='Precio: Del más bajo al más alto' check:innerText='Precio: Del más bajo al más alto' /&gt;" Guid="4cf83318-b0cf-4519-8d72-5068a73f94e7" InformativeScreenshot="ad05c028b9dad7fd71917116dbd0e111.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com : mouse gamer inalambrico logitech&amp;quot;' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="ddfbeb9f-48c9-4212-aae0-7c17f5feb1cd" CvTextArea="1131, 302, 73, 13" CvTextArgument="Destacados" CvType="Text" DesignTimeRectangle="1117, 296, 228, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='s-result-sort-select_0' tag='A' type='' class='a-dropdown-link a-active' aaname='Destacados' check:innerText='Destacados' /&gt;" Guid="ee56c531-b882-47cd-861c-894d7eb96eb3" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Logitech Ratón inalámbr…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="amazon.com/s" CVScreenId="c797ff24-1edd-4efc-a8c7-6f91b0fd3f7e" ContentHash="WtVDoMdFCUW9Cv9Da-ZqcA" CvTextArea="559, 354, 764, 20" CvTextArgument="Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports" CvType="Text" DesignTimeRectangle="560, 352, 762, 22" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports' tag='SPAN' type='' class='' check:innerText='Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports' /&gt;" Guid="74d62845-f559-4933-8330-2995ea6178d5" InformativeScreenshot="06b93f96d97c72784895679b5ef08ff2.png" Reference="DSa22ETlukWYT-00JVmboQ/8vrqFc7XF0uV2xMVnOESDQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Amazon.com: Mouse Gamer Inalambrico Logitech' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="c797ff24-1edd-4efc-a8c7-6f91b0fd3f7e" CvTextArea="287, 293, 103, 18" CvTextArgument="Resultados" CvType="Text" DesignTimeRectangle="287, 290, 1063, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='search' tag='H2' type='' class='a-size-medium-plus a-spacing-none a-color-base a-text-bold' aaname='Resultados' check:innerText='Resultados' /&gt;" Guid="c3b87764-244f-43ec-ab39-2f7acf50b2bf" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Obtener texto 'Logitech Ratón inalámbr…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,182" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="2ca4e7ac-8bf6-4c87-8664-74e3c159bd70" TextString="[precioAmazon]" Version="V4">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="amazon.com/-/es/Logitech-inal%C3%A1mbrico-910-005270-rendimiento-eSports/dp/B07GCKQD77/ref=sr_1_1" CVScreenId="e5bd3539-c5e8-468d-92e9-2838ac8e5277" ContentHash="bWRyCIw-gUuRDI0VgtIo2A" CvTextArea="564, 479, 74, 24" CvType="AnyWordGroup" DesignTimeRectangle="565, 474, 72, 35" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='corePriceDisplay_desktop_feature_div' tag='SPAN' aaname='' /&gt;" Guid="c8612d91-7c54-477b-bd0c-f369d49b7fa5" InformativeScreenshot="7437ece8fd34433db132eb325aee433c.png" Reference="DSa22ETlukWYT-00JVmboQ/BHc7RuUukkmfNJk0Rud1cg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='https://m.media-amazon.com/images/I/11EIQ5IGqaL._RC%7C01ZTHTZObnL.css,51FIeTurRAL.css,31fFxDf00KL.css,11j2+ObrspL.css,01qDClimA1L.css,01pOTCa2wPL.css,413Vvv3GONL.css,11TIuySqr6L.css,01Rw4F+QU6L.css,11JJsNcqOIL.css,01J3raiFJrL.css,01IdKcBuAdL.css,014QJx7nWq*' title='Amazon.com: Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports : Videojuegos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="499, 263, 511, 62" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='productTitle' tag='SPAN' type='' class='a-size-large product-title-word-break' aaname='        Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports       ' check:innerText='Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports' /&gt;" Guid="c9fbc0bb-4b03-4957-89d4-b4627d85cc1d" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="NK1eeK9AjkaV-W--o9K6gA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARHSURBVFhHvZddbBRVFMf7YrAq+OSbD6Kgb0qUUh60xq9VtA8k1EJrH1CsGIM+GLUmBA0kFi0WSMCHLcVCTMO2GmjFCiUFpH60sUjMEtIGLaAWama32w92dt2vOf7PndPd3M7sdmobf8k/M/fec8//zJ07s7NFXrEsawlUnclkmqEBaAxKisLS14yYKo6VafMHyR5A4hYoTh5BbAw6iLnLJc3cQZ7bkKQRSttp5w7mpqBdKKRY0noDE+7HxEuSZ94gVxA5l0n6wiDwYUwIyVyN9I0RMls/p4l33qDwi8+R4VtNxjOlFF7no/G3XyfzcBOlR/6UaB3kNHBYITbuyJU7zNOj12ly+/tkPL2KjKdKCgsxkx++p+bMhIvIuxIYuB0BjmWPn+qi0Atl7mYFFCp/nP45e0qy5IAH3w7nnsBAo8RkMY8cck3uVVMN2yWTDrwaxNYGFfGjpu12vnK3pKxIbRVFD+yj+DdHKd51DOf7KfJatRYztbueyLIkmw68UtqtQEeLjCl4s4Wef0xLyBqrWUuJ8/0S5SQx0EfhDeV0c/+n0pMfeDYrc5zfiYb2konufdNhPr7lZbKmpiQiP5YZlbPCwNPEKizm5a+WPoUVG6ZU9yKarLsna86PXGYiIhELB7zX8/I3S1uRuVpPqZ5blMx9d1FozUqKnzwuowsLvP1cwIC0FelffNkCWImjS4lSKRldWODdzwWMSVuR6r1bKyB9sUpG3Hnyo6hnnb2kXwi8DS4gKW1F6vQirYDM79tkxB03o3xq/VGz4gIS/2sBLecSMstmuoCwtBWOWxDcICPuuBnlU3u/YwXULdA34YVntQJGeh+kZGbum/CKkXEUcG7QsQfUJpzxGH6cNT/etZQeDayljuEeGfVOoC/pKGB0Qn81w9vPLyJtm1uxqxTrKab6jkdoZWCdkq/jFQrHxyVidm7GLarYa2rmG/0xGc0B70ouYAkq0Ub39O3Imk+rpvtdmkjM/ipO4iet7khcM2e1Oe+/icMd6vcAjYN2t82NqEFlX73kKKL8683Ue/28RDm5PH6NNnUGYDipmfNqxBKO5W9S5gxWYTk6tB1y4lqvo4BpVXz7FjVeaKH2yyfoy99O0mfBVnq1ZyuVBCrUeOmhOnrik7+yBXw/pH/XwisJz/vE3gadu2Q8yxdDnQ5zrypp3Uhlu392PPsMvHaKbQ7082f4RTskR/cfP+B21LiaFFJpWyUdCHZKlhzw+BWHW8VWB8uyDAH89aoxaoZo6097aFWbvcSzafOZD2gwMiyzcyD33zjcK3buIGCFWxEMb87Dg8doy3c7aE1nLa1ur1RX6uvYRLWnt6m9MBS5ItE6bI4LfEhsCiMrEZS58wa5eNkLX/lMUEQxJjZA//ljAHP5j+tOnLrfcy/IavA/Yn5xeIJjoSbM1R+1+YBki6H1SOyH+iEDSoj4nPv8iKlEDfYbblaKiv4FoeF/NqqvoEMAAAAASUVORK5CYII=" InformativeScreenshot="5f35976d58a5fa135f77d2e3387e0e59.jpg" Reference="DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA" Selector="&lt;html app='chrome.exe' title='Google' /&gt;" Url="https://www.google.com/" Version="V2" />
+        <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="4-OFzLMEwE6WZaqba1PX7A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARHSURBVFhHvZddbBRVFMf7YrAq+OSbD6Kgb0qUUh60xq9VtA8k1EJrH1CsGIM+GLUmBA0kFi0WSMCHLcVCTMO2GmjFCiUFpH60sUjMEtIGLaAWama32w92dt2vOf7PndPd3M7sdmobf8k/M/fec8//zJ07s7NFXrEsawlUnclkmqEBaAxKisLS14yYKo6VafMHyR5A4hYoTh5BbAw6iLnLJc3cQZ7bkKQRSttp5w7mpqBdKKRY0noDE+7HxEuSZ94gVxA5l0n6wiDwYUwIyVyN9I0RMls/p4l33qDwi8+R4VtNxjOlFF7no/G3XyfzcBOlR/6UaB3kNHBYITbuyJU7zNOj12ly+/tkPL2KjKdKCgsxkx++p+bMhIvIuxIYuB0BjmWPn+qi0Atl7mYFFCp/nP45e0qy5IAH3w7nnsBAo8RkMY8cck3uVVMN2yWTDrwaxNYGFfGjpu12vnK3pKxIbRVFD+yj+DdHKd51DOf7KfJatRYztbueyLIkmw68UtqtQEeLjCl4s4Wef0xLyBqrWUuJ8/0S5SQx0EfhDeV0c/+n0pMfeDYrc5zfiYb2konufdNhPr7lZbKmpiQiP5YZlbPCwNPEKizm5a+WPoUVG6ZU9yKarLsna86PXGYiIhELB7zX8/I3S1uRuVpPqZ5blMx9d1FozUqKnzwuowsLvP1cwIC0FelffNkCWImjS4lSKRldWODdzwWMSVuR6r1bKyB9sUpG3Hnyo6hnnb2kXwi8DS4gKW1F6vQirYDM79tkxB03o3xq/VGz4gIS/2sBLecSMstmuoCwtBWOWxDcICPuuBnlU3u/YwXULdA34YVntQJGeh+kZGbum/CKkXEUcG7QsQfUJpzxGH6cNT/etZQeDayljuEeGfVOoC/pKGB0Qn81w9vPLyJtm1uxqxTrKab6jkdoZWCdkq/jFQrHxyVidm7GLarYa2rmG/0xGc0B70ouYAkq0Ub39O3Imk+rpvtdmkjM/ipO4iet7khcM2e1Oe+/icMd6vcAjYN2t82NqEFlX73kKKL8683Ue/28RDm5PH6NNnUGYDipmfNqxBKO5W9S5gxWYTk6tB1y4lqvo4BpVXz7FjVeaKH2yyfoy99O0mfBVnq1ZyuVBCrUeOmhOnrik7+yBXw/pH/XwisJz/vE3gadu2Q8yxdDnQ5zrypp3Uhlu392PPsMvHaKbQ7082f4RTskR/cfP+B21LiaFFJpWyUdCHZKlhzw+BWHW8VWB8uyDAH89aoxaoZo6097aFWbvcSzafOZD2gwMiyzcyD33zjcK3buIGCFWxEMb87Dg8doy3c7aE1nLa1ur1RX6uvYRLWnt6m9MBS5ItE6bI4LfEhsCiMrEZS58wa5eNkLX/lMUEQxJjZA//ljAHP5j+tOnLrfcy/IavA/Yn5xeIJjoSbM1R+1+YBki6H1SOyH+iEDSoj4nPv8iKlEDfYbblaKiv4FoeF/NqqvoEMAAAAASUVORK5CYII=" InformativeScreenshot="b3f700102ff0db26c93432c3a39f24f8.jpg" Reference="DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA" Selector="&lt;html app='chrome.exe' title='Google' /&gt;" Url="https://www.google.com/" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>

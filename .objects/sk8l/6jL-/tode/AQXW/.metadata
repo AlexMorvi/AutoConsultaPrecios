@@ -1,0 +1,14 @@
+﻿{
+  "Name": "editable text Barra de …",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "AQXWgVXKaEeWO9ZHs4ZK_Q",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/AQXWgVXKaEeWO9ZHs4ZK_Q",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "Created": "2025-01-30T00:48:26.85137Z",
+  "Updated": "2025-01-30T00:48:26.85137Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

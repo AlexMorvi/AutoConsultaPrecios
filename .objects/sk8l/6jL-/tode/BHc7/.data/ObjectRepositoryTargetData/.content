@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bWRyCIw-gUuRDI0VgtIo2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="amazon.com/-/es/Logitech-inal%C3%A1mbrico-910-005270-rendimiento-eSports/dp/B07GCKQD77/ref=sr_1_1" CVScreenId="e5bd3539-c5e8-468d-92e9-2838ac8e5277" CvTextArea="564, 479, 74, 24" CvType="AnyWordGroup" DesignTimeRectangle="565, 474, 72, 35" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='corePriceDisplay_desktop_feature_div' tag='SPAN' aaname='' /&gt;" Guid="c8612d91-7c54-477b-bd0c-f369d49b7fa5" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='https://m.media-amazon.com/images/I/11EIQ5IGqaL._RC%7C01ZTHTZObnL.css,51FIeTurRAL.css,31fFxDf00KL.css,11j2+ObrspL.css,01qDClimA1L.css,01pOTCa2wPL.css,413Vvv3GONL.css,11TIuySqr6L.css,01Rw4F+QU6L.css,11JJsNcqOIL.css,01J3raiFJrL.css,01IdKcBuAdL.css,014QJx7nWq*' title='Amazon.com: Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports : Videojuegos' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="499, 263, 511, 62" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='productTitle' tag='SPAN' type='' class='a-size-large product-title-word-break' aaname='        Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports       ' check:innerText='Logitech Ratón inalámbrico para juegos G 910-005270 Pro con rendimiento de grado eSports' /&gt;" Guid="c9fbc0bb-4b03-4957-89d4-b4627d85cc1d" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7437ece8fd34433db132eb325aee433c.png" xmlns="">0quxK_hkQAEyXNMsYVYj8-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

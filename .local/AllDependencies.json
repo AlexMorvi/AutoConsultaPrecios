@@ -18563,16 +18563,16 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alex\\.nuget\\packages\\": {},
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Proyecto2Bimestre",
       "projectName": "Proyecto2Bimestre",
-      "projectPath": "C:\\Users\\Alex\\Documents\\UiPath\\AutoConsultaPrecios\\.local",
-      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Documents\\UiPath\\AutoConsultaPrecios\\.local",
+      "projectPath": "C:\\Users\\USER\\Documents\\GitHub\\AutoConsultaPrecios\\.local",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Documents\\GitHub\\AutoConsultaPrecios\\.local",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ]
@@ -18591,7 +18591,7 @@
             "version": "[24.12.4-preview, 24.12.4-preview]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Alex\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\USER\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

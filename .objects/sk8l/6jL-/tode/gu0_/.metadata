@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Ordenar porDestacados",
+  "Type": "Element",
+  "Id": "gu0_5HYJc0KShoFYxTTFuA",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/gu0_5HYJc0KShoFYxTTFuA",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "Created": "2025-01-30T00:39:30.959001Z",
+  "Updated": "2025-01-30T00:39:30.959001Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
