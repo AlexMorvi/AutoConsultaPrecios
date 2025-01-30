@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="in8Y76y8VkWyj8hAeOWklg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" DesignTimeRectangle="1244, 287, 15, 15" DesignTimeScaleFactor="1" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" Guid="9ec34e9c-e4aa-406e-9b3c-df1f5f89c30c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Pc Gamer 2024 | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1149, 286, 93, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='andes-dropdown__display-values' tag='SPAN' type='' aaname='Más relevantes' check:innerText='Más relevantes' /&gt;" Guid="9805389f-d84b-4298-825a-cbbaf847c53b" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="839ac83922e8246beda787339a854cee.png" xmlns="">0CERinwjtGEaEvCJzC_0xXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

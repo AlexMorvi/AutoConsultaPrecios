@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lz8B2K6dmkCkCv-fRIABrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/6799790b-0924-8003-8b97-0d0eebe48501" CVScreenId="7864a6ad-015d-42f7-895f-d4eac4a58a1f" CvElementArea="273, 153, 590, 43" CvType="InputBox" DesignTimeRectangle="275, 155, 588, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='nav-search-input' placeholder='Buscar productos, marcas y más…' aaname='Ingresa lo que quieras encontrar' /&gt;" Guid="b6731bf4-5a8b-47f5-9953-22e639ca5e04" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mercado Libre Ecuador - Envíos Gratis en el día' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e5d4a2ec38a7c2b3d7c347615b1f8eca.png" xmlns="">0Ld0_DIs8_02APwP-brnIUQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

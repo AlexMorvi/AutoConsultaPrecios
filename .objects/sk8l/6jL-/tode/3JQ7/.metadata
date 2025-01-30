@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT cb1-edit",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "3JQ7ePWRgEG2gyV7J6kzTA",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/3JQ7ePWRgEG2gyV7J6kzTA",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "Created": "2025-01-29T02:49:24.5796041Z",
+  "Updated": "2025-01-29T02:49:24.5796041Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hThHWLvA6kKOWBnQalI2MQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" CVScreenId="f6b1166e-1110-4c38-ae17-472be5f4ddc5" CvTextArea="915, 399, 115, 33" CvType="AnyWordGroup" DesignTimeRectangle="915, 397, 188, 36" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='ui-pdp-price__second-line' parentid='price' tag='DIV' type='' aaname='' /&gt;" Guid="eb88b0ce-13e5-4e72-8e4e-4be3fda96e79" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop | MercadoLibre' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="916, 303, 290, 78" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='ui-pdp-title' aaname='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop' check:innerText='Mouse Ergonómico Inalámbrico Quasad Qm-890g Circuit Shop' /&gt;" Guid="27345fd7-007f-4073-bf14-5a8dab641a80" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="83194fcd8a0a95faac44601f12243d95.png" xmlns="">0HRPGsUMHrkS-tF0CyWsrsQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

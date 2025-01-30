@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aNJyiXBRj0ytjpYjBWpL7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/6799790b-0924-8003-8b97-0d0eebe48501" CVScreenId="54dd37c2-a27d-42e8-822c-bcc3992857f0" CvTextArea="1151, 359, 83, 15" CvTextArgument="Menor precio" CvType="Text" DesignTimeRectangle="1152, 355, 82, 20" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Menor precio' class='andes-list__item-primary' tag='SPAN' type='' check:innerText='Menor precio' /&gt;" Guid="e27764e7-f2ae-44d3-8a7e-08a584fdf552" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mouse Inalambrico Recargable | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="53308cfc63fcd2144b3f49551bbc7fb3.png" xmlns="">0HGBM2JoioU-377cONaL9aA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

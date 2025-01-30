@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="v7E65QeYMEaC23O7ymWiCQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="google.com/search" DesignTimeRectangle="1152, 355, 82, 20" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Menor precio' class='andes-list__item-primary' tag='SPAN' type='' check:innerText='Menor precio' /&gt;" Guid="3cfc7b41-03a5-4f95-997c-9edca643d2a1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mause Gamer Logitec Inalambrico | MercadoLibre.com.ec' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1139, 345, 135, 41" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' tabindex='-1' tag='LI' type='' class='andes-list__item andes-list__item--size-medium' aaname='' check:innerText='Menor precio' /&gt;" Guid="2a7eaf05-597f-4f01-90aa-dbf92ae374e4" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6bd317e3b520ba71a296df4d26cae594.png" xmlns="">0BVxewTBHv0W6lYchJ6dArA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

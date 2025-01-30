@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sjqnAONmJk68Qb21dtBlKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/6799990d-9aa4-8003-9f99-e6f9b6d6ca78" DesignTimeRectangle="609, 382, 92, 31" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;ctrl name='Mouse Inalambrico Recargable | MercadoLibre.com.ec' role='document' /&gt;&lt;ctrl name='34 dólares con 99 centavos' role='graphic' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Mouse Inalambrico Recargable | MercadoLibre.com.ec' role='document' /&gt;&lt;ctrl name='34 dólares con 99 centavos' role='graphic' automationid='' /&gt;" Guid="fdea02f2-8844-428e-8844-7096dceed044" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Mouse Inalambrico Recargable | MercadoLibre.com.ec - Google Chro*' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="AA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="609, 415, 16, 21" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Mouse Inalambrico Recargable | MercadoLibre.com.ec' role='document' /&gt;&lt;ctrl name='en' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Mouse Inalambrico Recargable | MercadoLibre.com.ec' role='document' /&gt;&lt;ctrl name='en' role='text' automationid='' check:text='en' /&gt;" Guid="94a54713-575b-446f-8b13-7b083cd7f371" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7a908d1fad09d6318f8af0d1f3f384c7.png" xmlns="">0yD1UfKU3YEm6hdVWg8buzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "US$7,99",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "v8VUQkS500SqEIP5TbjkFg",
+  "Reference": "DSa22ETlukWYT-00JVmboQ/v8VUQkS500SqEIP5TbjkFg",
+  "ParentRef": "DSa22ETlukWYT-00JVmboQ/todew4adtE2p-yzHah9zYA",
+  "Created": "2025-01-29T04:02:36.6791323Z",
+  "Updated": "2025-01-29T04:02:36.6791323Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
